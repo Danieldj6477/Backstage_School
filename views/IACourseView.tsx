@@ -272,7 +272,7 @@ export const IACourseView: React.FC<IACourseViewProps> = ({ onRegister }) => {
         <a
           href={brochurePdf}
           download="Brochure_Curso_IA_Febrero2026.pdf"
-          className="bg-gradient-to-r from-pink-500 to-violet-600 text-white font-bold py-3 px-6 rounded-full shadow-[0_0_20px_rgba(168,85,247,0.5)] hover:shadow-[0_0_30px_rgba(168,85,247,0.8)] hover:scale-105 transition-all flex items-center gap-2 text-sm uppercase tracking-wider animate-pulse-slow border border-white/20 backdrop-blur-md"
+          className="bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-white font-bold py-3 px-6 rounded-full shadow-[0_0_20px_rgba(245,158,11,0.6)] hover:shadow-[0_0_30px_rgba(245,158,11,0.9)] hover:scale-105 transition-all flex items-center gap-2 text-sm uppercase tracking-wider animate-pulse border border-white/20 backdrop-blur-md"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
           <span className="hidden md:inline">Descargar Brochure</span>
