@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { HomeView } from './views/HomeView';
 import { IACourseView } from './views/IACourseView';
 import { VideoCourseView } from './views/VideoCourseView';
-import { CourseChatbot } from './components/CourseChatbot';
+
 import { RegistrationModal } from './components/RegistrationModal';
 import { ViewState } from './types';
 
@@ -33,7 +33,7 @@ function App() {
           <Route path="/video" element={<VideoCourseView onRegister={() => openRegistration('video')} />} />
         </Routes>
 
-        <CourseChatbot />
+
 
         <RegistrationModal
           isOpen={isModalOpen}
